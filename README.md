@@ -35,37 +35,6 @@ O trabalho está descrito no relatório em PDF, e os cálculos estão no noteboo
 
 ---
 
-# O que é a Rede de Lieb?
-
-A Rede de Lieb é uma rede quadrada com três sítios por célula unitária, de dois tipos: o do vértice, chamado **A**, e os das arestas, chamados **B** ($\mathrm{B}_x$ e $\mathrm{B}_y$). A modelagem *tight-binding* é dada pelo Hamiltoniano:
-
-$$
-\mathcal{H} = \sum_i \epsilon_i c_i^\dagger c_i - t \sum_{\langle ij \rangle} \left(c_i^\dagger c_j + \text{H.c.}\right) - t' \sum_{\langle\langle ij \rangle\rangle} \left(c_i^\dagger c_j + \text{H.c.}\right)
-$$
-
-onde $\epsilon_i$ é a energia *on-site* do sítio $i$, $t$ é o *hopping* entre vizinhos (A–B) e $t'$ é o *hopping* entre próximos vizinhos (B–B).
-
-Os parâmetros utilizados são:
-
-| Parâmetro | Valor |
-|---|---|
-| Distância entre sítios A | $a = 2,6$ nm |
-| Unidade de energia | $\|t\|$ |
-| Energias *on-site* | $\varepsilon_A = -\Delta/2$ e $\varepsilon_B = \Delta/2$, com $\Delta \in \{0, \|t\|\}$ |
-| *Hopping* de próximos vizinhos | $t' \in \{0,\ t/\sqrt{2}\}$ (hipótese: $t \propto 1/d$) |
-| Caminho na Zona de Brillouin | $\Gamma - X - M - \Gamma$ |
-
-Os quatro casos estudados são:
-
-| Caso | Energias *on-site* | *Hopping* $t'$ |
-|---|---|---|
-| (a) | iguais ($\Delta = 0$) | nulo |
-| (b) | diferentes ($\Delta = \|t\|$) | nulo |
-| (c) | iguais ($\Delta = 0$) | $t/\sqrt{2}$ |
-| (d) | diferentes ($\Delta = \|t\|$) | $t/\sqrt{2}$ |
-
----
-
 # Conteúdos do repositório
 
 <ul>
@@ -102,6 +71,37 @@ jupyter notebook lieb_net.ipynb
 ```
 
 As figuras são salvas automaticamente na pasta `Resultados/`.
+
+---
+
+# O que é a Rede de Lieb?
+
+A Rede de Lieb é uma rede quadrada com três sítios por célula unitária, de dois tipos: o do vértice, chamado **A**, e os das arestas, chamados **B** ($\mathrm{B}_x$ e $\mathrm{B}_y$). A modelagem *tight-binding* é dada pelo Hamiltoniano:
+
+$$
+\mathcal{H} = \sum_i \epsilon_i c_i^\dagger c_i - t \sum_{\langle ij \rangle} \left(c_i^\dagger c_j + \text{H.c.}\right) - t' \sum_{\langle\langle ij \rangle\rangle} \left(c_i^\dagger c_j + \text{H.c.}\right)
+$$
+
+onde $\epsilon_i$ é a energia *on-site* do sítio $i$, $t$ é o *hopping* entre vizinhos (A–B) e $t'$ é o *hopping* entre próximos vizinhos (B–B).
+
+Os parâmetros utilizados são:
+
+| Parâmetro | Valor |
+|---|---|
+| Distância entre sítios A | $a = 2,6$ nm |
+| Unidade de energia | $\|t\|$ |
+| Energias *on-site* | $\varepsilon_A = -\Delta/2$ e $\varepsilon_B = \Delta/2$, com $\Delta \in \{0, \|t\|\}$ |
+| *Hopping* de próximos vizinhos | $t' \in \{0,\ t/\sqrt{2}\}$ (hipótese: $t \propto 1/d$) |
+| Caminho na Zona de Brillouin | $\Gamma - X - M - \Gamma$ |
+
+Os quatro casos estudados são:
+
+| Caso | Energias *on-site* | *Hopping* $t'$ |
+|---|---|---|
+| (a) | iguais ($\Delta = 0$) | nulo |
+| (b) | diferentes ($\Delta = \|t\|$) | nulo |
+| (c) | iguais ($\Delta = 0$) | $t/\sqrt{2}$ |
+| (d) | diferentes ($\Delta = \|t\|$) | $t/\sqrt{2}$ |
 
 ---
 
