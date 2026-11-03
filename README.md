@@ -37,13 +37,10 @@ O trabalho está descrito no relatório em PDF, e os cálculos estão no noteboo
 
 # O que é a Rede de Lieb?
 
-A Rede de Lieb é uma rede quadrada com três sítios por célula unitária, de dois tipos: o do vértice, chamado **A**, e os das arestas, chamados **B** (B$_x$ e B$_y$). A modelagem *tight-binding* é dada pelo Hamiltoniano:
+A Rede de Lieb é uma rede quadrada com três sítios por célula unitária, de dois tipos: o do vértice, chamado **A**, e os das arestas, chamados **B** ($\mathrm{B}_x$ e $\mathrm{B}_y$). A modelagem *tight-binding* é dada pelo Hamiltoniano:
 
 $$
-\mathcal{H}
-= \sum_i \epsilon_i c_i^\dagger c_i
-- t \sum_{\langle ij \rangle} \left(c_i^\dagger c_j + \text{H.c.}\right)
-- t' \sum_{\langle\langle ij \rangle\rangle} \left(c_i^\dagger c_j + \text{H.c.}\right)
+\mathcal{H} = \sum_i \epsilon_i c_i^\dagger c_i - t \sum_{\langle ij \rangle} \left(c_i^\dagger c_j + \text{H.c.}\right) - t' \sum_{\langle\langle ij \rangle\rangle} \left(c_i^\dagger c_j + \text{H.c.}\right)
 $$
 
 onde $\epsilon_i$ é a energia *on-site* do sítio $i$, $t$ é o *hopping* entre vizinhos (A–B) e $t'$ é o *hopping* entre próximos vizinhos (B–B).
