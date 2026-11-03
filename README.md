@@ -31,18 +31,7 @@ O trabalho está descrito no relatório em PDF, e os cálculos estão no noteboo
 - densidade de estados local (LDOS), por sítio;
 - ocupação eletrônica, $D(E)f(E)$, com a distribuição de Fermi-Dirac.
 
-📄 **Relatório:** [`Relatorio_Rede_de_Lieb.pdf`](./Relatorio_Rede_de_Lieb.pdf)
-
----
-
-# Conhecimentos prévios recomendados
-
-Para melhor aproveitamento do material, recomenda-se familiaridade com:
-
-- mecânica quântica básica;
-- noções de física do estado sólido (Teorema de Bloch, Zona de Brillouin, bandas de energia);
-- álgebra linear (diagonalização de matrizes);
-- Python, NumPy e Matplotlib.
+📄 **Relatório:** [`Relatorio_Rede_de_Lieb.pdf`](https://drive.google.com/file/d/1Lb_1Nb8_d7JD7JUFMyoYbta2rVem9Y2B/view?usp=sharing)
 
 ---
 
